@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+data driven test for supplier,Chrome 70.0.3538.102,,2018-11-15 23:16:02,2018-11-15 23:16:37,34.740s,FAILED
+,,,,,,
+Test Cases/New Test Case,Chrome 70.0.3538.102,tour,2018-11-15 23:16:03,2018-11-15 23:16:36,33.351s,FAILED
+openBrowser,Chrome 70.0.3538.102,,2018-11-15 23:16:03,2018-11-15 23:16:07,3.964s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-15 23:16:07,2018-11-15 23:16:08,1.153s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-15 23:16:08,2018-11-15 23:16:35,26.619s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 23:16:35,2018-11-15 23:16:35,0.287s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-15 23:16:35,2018-11-15 23:16:36,0.779s,FAILED
