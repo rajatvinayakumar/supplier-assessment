@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>de02250e-f94a-4844-82a2-fa59582b531a</dataFileGUID>
-   <dataSourceUrl>C:\Users\rajat\Desktop\katalon1.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\rajat\Desktop\nov14\katalon1.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

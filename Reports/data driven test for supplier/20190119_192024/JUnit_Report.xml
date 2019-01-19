@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="data driven test for supplier" time="32" tests="1" failures="0" errors="0">
+   <testsuite name="data driven test for supplier" tests="1" failures="0" errors="0" time="32" timestamp="2019-01-19 19:20:27" hostname="rajat - LAPTOP-R8MREIJM.mshome.net" id="Test Suites/data driven test for supplier">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rajat\\Desktop\\nov14\\Reports\\data driven test for supplier\\20190119_192024"/>
+         <property name="logFiles" value="C:\\Users\\rajat\\Desktop\\nov14\\Reports\\data driven test for supplier\\20190119_192024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rajat - LAPTOP-R8MREIJM.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="fa77002809cce3a229aaa5179bccfaf9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2019-01-19 19:20:27 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2019-01-19 19:20:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-01-19 19:20:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 19:20:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-01-19 19:20:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-19 19:20:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2019-01-19 19:20:38 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2019-01-19 19:20:38 - [TEST_STEP][PASSED] - setText: Text 'admin@phptravels.com' is set on object 'Object Repository/Page_Administator Login/input_Login Panel_email'
+
+2019-01-19 19:20:39 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/Page_Administator Login/input_Login Panel_email'
+
+2019-01-19 19:20:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Administator Login/input_Login Panel_password'
+
+2019-01-19 19:20:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Administator Login/input_Login Panel_password'
+
+2019-01-19 19:20:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Administator Login/button_Login' is clicked on
+
+2019-01-19 19:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Administator Login/button_Login' is clicked on
+
+2019-01-19 19:20:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard/a_Accounts' is clicked on
+
+2019-01-19 19:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Accounts' is clicked on
+
+2019-01-19 19:20:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard/a_Suppliers' is clicked on
+
+2019-01-19 19:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Suppliers' is clicked on
+
+2019-01-19 19:20:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Suppliers Management/button_Add' is clicked on
+
+2019-01-19 19:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Suppliers Management/button_Add' is clicked on
+
+2019-01-19 19:20:52 - [TEST_STEP][PASSED] - setText: Text 'test1' is set on object 'Object Repository/Page_Add Supplier/input_First Name_fname'
+
+2019-01-19 19:20:52 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/Page_Add Supplier/input_First Name_fname'
+
+2019-01-19 19:20:52 - [TEST_STEP][PASSED] - setText: Text 'test2' is set on object 'Object Repository/Page_Add Supplier/input_Last Name_lname'
+
+2019-01-19 19:20:52 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/Page_Add Supplier/input_Last Name_lname'
+
+2019-01-19 19:20:52 - [TEST_STEP][PASSED] - setText: Text 'test@gmail.com' is set on object 'Object Repository/Page_Add Supplier/input_Email_email'
+
+2019-01-19 19:20:53 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Add Supplier/input_Email_email'
+
+2019-01-19 19:20:53 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Add Supplier/input_Password_password'
+
+2019-01-19 19:20:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Add Supplier/input_Password_password'
+
+2019-01-19 19:20:53 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Page_Add Supplier/input_Mobile Number_mobile'
+
+2019-01-19 19:20:53 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Add Supplier/input_Mobile Number_mobile'
+
+2019-01-19 19:20:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/select country' is clicked on
+
+2019-01-19 19:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/select country' is clicked on
+
+2019-01-19 19:20:53 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2019-01-19 19:20:53 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2019-01-19 19:20:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Add Supplier/input_concat(id(  select2-drop' is present
+
+2019-01-19 19:20:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Supplier/input_concat(id(  select2-drop' is present
+
+2019-01-19 19:20:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/input_concat(id(  select2-drop' is clicked on
+
+2019-01-19 19:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/input_concat(id(  select2-drop' is clicked on
+
+2019-01-19 19:20:54 - [TEST_STEP][PASSED] - setText: Text 'test3' is set on object 'Object Repository/Page_Add Supplier/input_Address 1_address1'
+
+2019-01-19 19:20:54 - [MESSAGE][PASSED] - Text 'test3' is set on object 'Object Repository/Page_Add Supplier/input_Address 1_address1'
+
+2019-01-19 19:20:54 - [TEST_STEP][PASSED] - setText: Text 'test4' is set on object 'Object Repository/Page_Add Supplier/input_Address 2_address2'
+
+2019-01-19 19:20:54 - [MESSAGE][PASSED] - Text 'test4' is set on object 'Object Repository/Page_Add Supplier/input_Address 2_address2'
+
+2019-01-19 19:20:54 - [TEST_STEP][PASSED] - setText: Text 'test5' is set on object 'Object Repository/Page_Add Supplier/input_Name_itemname'
+
+2019-01-19 19:20:54 - [MESSAGE][PASSED] - Text 'test5' is set on object 'Object Repository/Page_Add Supplier/input_Name_itemname'
+
+2019-01-19 19:20:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/ul_Assign Hotels_select2-choic' is clicked on
+
+2019-01-19 19:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/ul_Assign Hotels_select2-choic' is clicked on
+
+2019-01-19 19:20:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Add Supplier/Select Hotel' is present
+
+2019-01-19 19:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Supplier/Select Hotel' is present
+
+2019-01-19 19:20:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/Select Hotel' is clicked on
+
+2019-01-19 19:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/Select Hotel' is clicked on
+
+2019-01-19 19:20:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/ul_Assign Tours_select2-choice' is clicked on
+
+2019-01-19 19:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/ul_Assign Tours_select2-choice' is clicked on
+
+2019-01-19 19:20:55 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Add Supplier/select tours' is present
+
+2019-01-19 19:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Supplier/select tours' is present
+
+2019-01-19 19:20:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/select tours' is clicked on
+
+2019-01-19 19:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/select tours' is clicked on
+
+2019-01-19 19:20:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/ul_Assign Cars_select2-choices' is clicked on
+
+2019-01-19 19:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/ul_Assign Cars_select2-choices' is clicked on
+
+2019-01-19 19:20:55 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Add Supplier/select car' is present
+
+2019-01-19 19:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Supplier/select car' is present
+
+2019-01-19 19:20:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/select car' is clicked on
+
+2019-01-19 19:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/select car' is clicked on
+
+2019-01-19 19:20:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/ins_Hotels_iCheck-helper' is clicked on
+
+2019-01-19 19:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/ins_Hotels_iCheck-helper' is clicked on
+
+2019-01-19 19:20:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/ins_Tours_iCheck-helper' is clicked on
+
+2019-01-19 19:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/ins_Tours_iCheck-helper' is clicked on
+
+2019-01-19 19:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/ins_Cars_iCheck-helper' is clicked on
+
+2019-01-19 19:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/ins_Cars_iCheck-helper' is clicked on
+
+2019-01-19 19:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/ins_Bookings_iCheck-helper' is clicked on
+
+2019-01-19 19:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/ins_Bookings_iCheck-helper' is clicked on
+
+2019-01-19 19:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/ins_Locations_iCheck-helper' is clicked on
+
+2019-01-19 19:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/ins_Locations_iCheck-helper' is clicked on
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-19 19:20:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-19 19:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Supplier/button_Submit' is clicked on
+
+2019-01-19 19:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Supplier/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-19 19:20:27 - [TEST_SUITE][PASSED] - data driven test for supplier: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
